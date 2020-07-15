@@ -1,0 +1,52 @@
+Datatype in javascript:
+----------------------
+There are six main datatypes in javascript:-
+-------------------------------------
+1.String type:
+-----------
+-->It is used to represent textual data
+var a = 'Hello Letsupgrade';
+
+2.Number type:
+-----------
+-->It is used to represent the numbers like integers, decimals, positive/negative numbers
+var a = 2;
+
+3.Boolean type:
+-----------
+-->It can only store the output of true or false
+var a = 2;
+var b = 3;
+alert(a>b);
+
+4.Object type:
+-----------
+-->It is used to store collections of data
+var student = {'name': Santhosh,'dep':'CSE', 'sec':'H'};
+
+5.Array type:
+-----------
+-->It is used to store multiple data in a single variable
+var fruits = ["apple","orange","banana"];
+
+6.Function type:
+-----------
+-->It is a callable object which execute a block of code 
+var greeting = function(){ 
+    return "Hello World!"; 
+}
+alert(greeting());
+
+Some other datatypes:
+---------------
+Undefined type:
+-----------
+-->It will be the value provided when a variable is declared but not yet defined
+var a;
+alert(a);
+
+Null type:
+-----------
+-->It is used to that the variable has nothing
+var a = null;
+alert(a);
