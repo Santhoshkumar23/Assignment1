@@ -1,0 +1,40 @@
+//
+<html>
+<head>
+    <title>Javascript</title>
+</head>
+<body>
+    <script>
+        //used to log output 
+        console.log("Hi");
+        //used to log an error message
+        console.error("Error");
+        //used to log a warning message
+        console.warn("Warn");
+        //used to clear the console
+        console.clear();
+        //used for calculating the time taken in a block or function
+        console.time("Time taken")
+        for(i=0,i<5;i++){
+            document.write(i);
+        }
+        console.timeEnd("Time taken")
+        //used to generate a table using the given data
+        console.table({"a":1,"b":2})
+        //used to count the number that the given block reached
+        for(j=0;j<5;j++){
+            console.count(i)
+        }
+        //used to group contents in a seperate block by indentation
+        console.group("Group")
+        console.log("Indented 1")
+        console.error("Indented 2")
+        console.warn("Indented 3")
+        console.groupEnd("Group")
+        //we can also add CSS stylings in the console by custom console logs
+        const spacing="10px"
+        const styles=background-color: green; font:bold;
+    </script>
+</body>
+
+</html>
